@@ -18,6 +18,10 @@
           color:var(--purple);
           font-size:30px;
      }
+     .text_h_table th{
+          font-size:16px;
+          text-agile
+     }
 </style>
 
 <div class="container-fluid mar-t-90px header--bg">
@@ -31,7 +35,7 @@
                <div class="table-responsive">
                     <table class="table table-hover">
                          <thead>
-                              <tr>
+                              <tr class="text_h_table">
                                    <th scope="col">#</th>
                                    <th scope="col">ชื่อระบบ</th>
                                    <th scope="col">ลำดับ</th>
@@ -46,7 +50,7 @@
                                         <img src="images/icon_setting/icon_1.png" class="img-fluid"  title="สารบรรณอิเล็กทรอนิกส์" alt="สารบรรณอิเล็กทรอนิกส์">
                                         สารบรรณอิเล็กทรอนิกส์</td>
                                    <td>
-                                        <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="1">                  
+                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="1">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -64,7 +68,7 @@
                                         <img src="images/icon_setting/e_document.png" class="img-fluid" title="E-DOCUMENT" alt="E-DOCUMENT">
                                         E-DOCUMENT</td>
                                    <td>
-                                        <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="2">                  
+                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="2">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -83,7 +87,7 @@
                                    
                                         ระบบจองยานพาหนะ</td>
                                    <td>
-                                        <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="3">                  
+                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="3">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -101,7 +105,7 @@
                                           <img src="images/icon_setting/icon_3.png" class="img-fluid"  title="ระบบจองห้องประชุม" alt="ระบบจองห้องประชุม">
                                         ระบบจองห้องประชุม</td>
                                    <td>
-                                        <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="4">                  
+                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="4">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -119,7 +123,7 @@
                                          <img src="images/icon_setting/icon_4.png" class="img-fluid"  title="ขอหนังสือรับรอง" alt="ขอหนังสือรับรอง">
                                         ขอหนังสือรับรอง</td>
                                    <td>
-                                        <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
+                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
                                    </td>
                                    <td>
                                         -
@@ -134,7 +138,7 @@
                                         <img src="images/icon_setting/intranet.png" class="img-fluid"    title="INTRANET WEBPORTAL" alt=" INTRANET WEBPORTAL">
                                         INTRANET WEBPORTAL</td>
                                    <td>
-                                        <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
+                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
                                    </td>
                                    <td>
                                    -
@@ -216,7 +220,7 @@
           </div>
           <div class="row">
                <div class="col-12 text-center">
-                     <img src="images/icon_setting/intranet.png" alt="INTRANET WEBPORTAL">INTRANET WEBPORTAL 
+                     <img src="images/icon_setting/intranet.png" alt="INTRANET WEBPORTAL" title="INTRANET WEBPORTAL"> INTRANET WEBPORTAL 
                </div>
           </div>
       </div>
@@ -247,7 +251,7 @@
       <div class="modal-body">
           <div class="row">
                <div class="col-12 text-center">
-                     <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="INTRANET WEBPORTAL">INTRANET WEBPORTAL 
+                     <img src="images/icon_setting/intranet.png" alt="INTRANET WEBPORTAL" title="INTRANET WEBPORTAL">INTRANET WEBPORTAL 
                </div>
           </div>
           <div class="row">
