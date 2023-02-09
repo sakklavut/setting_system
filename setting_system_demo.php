@@ -43,7 +43,7 @@
                               <tr>
                                    <th scope="row">1</th>
                                    <td>
-                                        <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_01.png" alt="สารบรรณอิเล็กทรอนิกส์">
+                                        <img src="images/icon_setting/icon_1.png" class="img-fluid"  title="สารบรรณอิเล็กทรอนิกส์" alt="สารบรรณอิเล็กทรอนิกส์">
                                         สารบรรณอิเล็กทรอนิกส์</td>
                                    <td>
                                         <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="1">                  
@@ -61,7 +61,7 @@
                               <tr>
                                    <th scope="row">2</th>
                                    <td>
-                                        <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="ระบบประเมินผล">
+                                        <img src="images/icon_setting/e_document.png" class="img-fluid" title="E-DOCUMENT" alt="E-DOCUMENT">
                                         E-DOCUMENT</td>
                                    <td>
                                         <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="2">                  
@@ -79,7 +79,8 @@
                               <tr>
                                    <th scope="row">3</th>
                                    <td>
-                                        <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="ระบบประเมินผล">
+                                          <img src="images/icon_setting/icon_2.png" class="img-fluid"  title="ระบบจองยานพาหนะ" alt="ระบบจองยานพาหนะ">
+                                   
                                         ระบบจองยานพาหนะ</td>
                                    <td>
                                         <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="3">                  
@@ -97,7 +98,7 @@
                               <tr>
                                    <th scope="row">4</th>
                                    <td>
-                                        <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="ระบบประเมินผล">
+                                          <img src="images/icon_setting/icon_3.png" class="img-fluid"  title="ระบบจองห้องประชุม" alt="ระบบจองห้องประชุม">
                                         ระบบจองห้องประชุม</td>
                                    <td>
                                         <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="4">                  
@@ -115,7 +116,7 @@
                               <tr>
                                    <th scope="row">5</th>
                                    <td>
-                                        <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="ระบบประเมินผล">
+                                         <img src="images/icon_setting/icon_4.png" class="img-fluid"  title="ขอหนังสือรับรอง" alt="ขอหนังสือรับรอง">
                                         ขอหนังสือรับรอง</td>
                                    <td>
                                         <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
@@ -130,7 +131,7 @@
                               <tr>
                                    <th scope="row">6</th>
                                    <td>
-                                        <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="ระบบประเมินผล">
+                                        <img src="images/icon_setting/intranet.png" class="img-fluid"    title="INTRANET WEBPORTAL" alt=" INTRANET WEBPORTAL">
                                         INTRANET WEBPORTAL</td>
                                    <td>
                                         <input class="form-control text-center w-25" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
@@ -183,8 +184,8 @@
       <div class="modal-footer ">
           <div class="row">
                <div class="col-12 text-center">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#confir_changedata"><i class="fa fa-check-square" aria-hidden="false"></i> ยืนยันการเปลี่ยนแปลงข้อมูล</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
                </div>
           </div>
       </div>
@@ -215,15 +216,15 @@
           </div>
           <div class="row">
                <div class="col-12 text-center">
-                     <img src="http://203.150.224.249/demo/PRD_INTRA_64/demo3/assets/img/system/system_07.png" alt="INTRANET WEBPORTAL">INTRANET WEBPORTAL 
+                     <img src="images/icon_setting/intranet.png" alt="INTRANET WEBPORTAL">INTRANET WEBPORTAL 
                </div>
           </div>
       </div>
       <div class="modal-footer ">
           <div class="row">
                <div class="col-12 text-center">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#confir_request" onclick="hide_butoon()"><i class="fa fa-check-square" aria-hidden="false"></i> ยืนยันการร้องขอสิทธิ์</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
                </div>
           </div>
       </div>
