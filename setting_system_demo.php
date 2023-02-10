@@ -20,8 +20,16 @@
      }
      .text_h_table th{
           font-size:16px;
-          text-agile
+          text-align: center;
      }
+     @media (min-width: 1024px) {
+          .form_width{
+               width:50%;
+               text-align:center;
+               margin-left: auto;
+               margin-right: auto;
+          }
+      }
 </style>
 
 <div class="container-fluid mar-t-90px header--bg">
@@ -46,11 +54,19 @@
                          <tbody>
                               <tr>
                                    <th scope="row">1</th>
+                                        <td>
+                                             <div class="row">
+                                                  <div class="col-12 text-center">
+                                                       <img src="images/icon_setting/icon_1.png" class="img-fluid"  title="สารบรรณอิเล็กทรอนิกส์" alt="สารบรรณอิเล็กทรอนิกส์">
+                                                  </div>
+                                                  <div class="col-12 text-center">
+                                                       สารบรรณอิเล็กทรอนิกส์
+                                                  </div>
+                                             </div>
+                                             
+                                        </td>
                                    <td>
-                                        <img src="images/icon_setting/icon_1.png" class="img-fluid"  title="สารบรรณอิเล็กทรอนิกส์" alt="สารบรรณอิเล็กทรอนิกส์">
-                                        สารบรรณอิเล็กทรอนิกส์</td>
-                                   <td>
-                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="1">                  
+                                        <input class="form-control text-center form_width" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="1">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -65,10 +81,17 @@
                               <tr>
                                    <th scope="row">2</th>
                                    <td>
-                                        <img src="images/icon_setting/e_document.png" class="img-fluid" title="E-DOCUMENT" alt="E-DOCUMENT">
-                                        E-DOCUMENT</td>
+                                         <div class="row">
+                                             <div class="col-12 text-center">
+                                                   <img src="images/icon_setting/e_document.png" class="img-fluid" title="E-DOCUMENT" alt="E-DOCUMENT">
+                                             </div>
+                                             <div class="col-12 text-center">
+                                                   E-DOCUMENT
+                                             </div>
+                                        </div>
+                                   </td>
                                    <td>
-                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="2">                  
+                                        <input class="form-control text-center form_width" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="2">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -82,12 +105,18 @@
                               </tr>
                               <tr>
                                    <th scope="row">3</th>
+                                        <td>
+                                             <div class="row">
+                                                  <div class="col-12 text-center">
+                                                       <img src="images/icon_setting/icon_2.png" class="img-fluid"  title="ระบบจองยานพาหนะ" alt="ระบบจองยานพาหนะ">
+                                                  </div>
+                                                  <div class="col-12 text-center">
+                                                        ระบบจองยานพาหนะ
+                                                  </div>
+                                             </div>
+                                        </td>
                                    <td>
-                                          <img src="images/icon_setting/icon_2.png" class="img-fluid"  title="ระบบจองยานพาหนะ" alt="ระบบจองยานพาหนะ">
-                                   
-                                        ระบบจองยานพาหนะ</td>
-                                   <td>
-                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="3">                  
+                                        <input class="form-control text-center form_width" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="3">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -102,10 +131,17 @@
                               <tr>
                                    <th scope="row">4</th>
                                    <td>
-                                          <img src="images/icon_setting/icon_3.png" class="img-fluid"  title="ระบบจองห้องประชุม" alt="ระบบจองห้องประชุม">
-                                        ระบบจองห้องประชุม</td>
+                                        <div class="row">
+                                             <div class="col-12 text-center">
+                                                  <img src="images/icon_setting/icon_3.png" class="img-fluid"  title="ระบบจองห้องประชุม" alt="ระบบจองห้องประชุม">
+                                             </div>
+                                             <div class="col-12 text-center">
+                                                  ระบบจองห้องประชุม
+                                             </div>
+                                        </div>   
+                                      </td>
                                    <td>
-                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="4">                  
+                                        <input class="form-control text-center form_width" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="4">                  
                                    </td>
                                    <td>
                                         <div class="form-group form-check">
@@ -120,10 +156,17 @@
                               <tr>
                                    <th scope="row">5</th>
                                    <td>
-                                         <img src="images/icon_setting/icon_4.png" class="img-fluid"  title="ขอหนังสือรับรอง" alt="ขอหนังสือรับรอง">
-                                        ขอหนังสือรับรอง</td>
+                                        <div class="row">
+                                             <div class="col-12 text-center">
+                                                  <img src="images/icon_setting/icon_4.png" class="img-fluid"  title="ขอหนังสือรับรอง" alt="ขอหนังสือรับรอง">
+                                             </div>
+                                             <div class="col-12 text-center">
+                                                   ขอหนังสือรับรอง
+                                             </div>
+                                        </div>   
+                                   </td>
                                    <td>
-                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
+                                        <input class="form-control text-center form_width" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
                                    </td>
                                    <td>
                                         -
@@ -135,10 +178,17 @@
                               <tr>
                                    <th scope="row">6</th>
                                    <td>
-                                        <img src="images/icon_setting/intranet.png" class="img-fluid"    title="INTRANET WEBPORTAL" alt=" INTRANET WEBPORTAL">
-                                        INTRANET WEBPORTAL</td>
+                                        <div class="row">
+                                             <div class="col-12 text-center">
+                                                  <img src="images/icon_setting/intranet.png" class="img-fluid"    title="INTRANET WEBPORTAL" alt=" INTRANET WEBPORTAL">
+                                             </div>
+                                             <div class="col-12 text-center">
+                                                   INTRANET WEBPORTAL
+                                             </div>
+                                        </div>   
+                                       </td>
                                    <td>
-                                        <input class="form-control text-center " type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
+                                        <input class="form-control text-center form_width" type="text" placeholder="ลำดับ" aria-label="กรอกลำดับ" value="-" disabled>                  
                                    </td>
                                    <td>
                                    -
